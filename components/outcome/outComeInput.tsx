@@ -1,7 +1,7 @@
 function outComeInput(){
     return(
         <div className="grid row-span-1 border-2 border-gray-100 grid-cols-20">
-            <div className="col-span-4 bg-yellow-600">
+            <div className="col-span-4 ">
                 <label className="inline-block mb-2 text-gray-700 form-label">날짜</label>
                 <input
                 type="text"
@@ -26,7 +26,7 @@ function outComeInput(){
                 placeholder="Example label"
                 />
             </div>
-            <div className="col-span-4 bg-yellow-300">
+            <div className="col-span-4">
                 <label className="inline-block mb-2 text-gray-700 form-label">금액</label>
                 <input
                 type="text"
@@ -51,7 +51,7 @@ function outComeInput(){
                 placeholder="Example label"
                 />
             </div>
-            <div className="col-span-4 bg-yellow-100">
+            <div className="col-span-4 ">
                 <label className="inline-block mb-2 text-gray-700 form-label">Example textarea</label>
                 <input
                 type="text"
@@ -96,7 +96,7 @@ function outComeInput(){
                 placeholder="Your message"
                 ></textarea>
             </div>
-            <div className="col-span-4 bg-yellow-300">
+            <div className="col-span-4 ">
                 <label className="inline-block mb-2 text-gray-700 form-label">분류</label>
                 <input
                 type="text"
@@ -121,7 +121,7 @@ function outComeInput(){
                 placeholder="Example label"
                 />
             </div>
-            <div className="col-span-4 bg-yellow-300">
+            <div className="col-span-4 ">
                 <label className="inline-block mb-2 text-gray-700 form-label">태그</label>
                 <input
                 type="text"
